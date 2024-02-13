@@ -19,8 +19,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      'https://todo-lists-d13cb.web.app',
-      'https://todo-lists-d13cb.firebaseapp.com',
+      'https://main--chic-conkies-e7eef9.netlify.app',
       'http://localhost:3000',
     ],
   }),
